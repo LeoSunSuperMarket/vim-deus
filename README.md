@@ -22,19 +22,6 @@ colorscheme deus
 " 或者使用自定义变体
 colorscheme deus-custom
 ```
-
-## 特性
-
-- 完整的语法高亮
-- Treesitter 支持（`TS*` 高亮组）
-- Coc.nvim / ALE / LSP 诊断支持
-- GitGutter / Signify 支持
-- NERDTree 支持
-- CtrlP / FZF / Telescope 支持
-- Markdown 高亮
-- 256 色终端和 GUI 双支持
-- Vim / Neovim 兼容
-
 ## 状态栏主题
 
 ### Airline
@@ -48,10 +35,6 @@ let g:airline_theme = 'deus'
 ```vim
 let g:lightline = { 'colorscheme': 'deus' }
 ```
-
-## 屏幕截图
-
-_待添加_
 
 ## License
 
