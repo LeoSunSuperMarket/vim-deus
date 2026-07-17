@@ -1,0 +1,75 @@
+*vim-deus.txt*  A retro-modern Vim colorscheme
+
+==============================================================================
+CONTENTS                                    *vim-deus*
+
+    1. Intro ................... |vim-deus-intro|
+    2. Installation ............ |vim-deus-install|
+    3. Usage ................... |vim-deus-usage|
+    4. Plugin Support .......... |vim-deus-plugins|
+    5. Airline Theme ........... |vim-deus-airline|
+    6. Lightline Theme ......... |vim-deus-lightline|
+
+==============================================================================
+1. INTRO                                     *vim-deus-intro*
+
+vim-deus is a retro-modern colorscheme for Vim, based on:
+  - ajmwagar/vim-deus
+  - theniceboy/nvim-deus
+
+It provides a dark theme with a balanced palette optimized for readability.
+
+==============================================================================
+2. INSTALLATION                              *vim-deus-install*
+
+Using vim-plug:
+>
+  Plug 'LeoSunSuperMarket/vim-deus'
+<
+
+==============================================================================
+3. USAGE                                     *vim-deus-usage*
+
+Add to your vimrc:
+>
+  colorscheme deus
+<
+Or use deus-custom if you prefer the custom variant:
+>
+  colorscheme deus-custom
+<
+
+==============================================================================
+4. PLUGIN SUPPORT                            *vim-deus-plugins*
+
+vim-deus supports the following plugins out of the box:
+
+  - coc.nvim
+  - ALE
+  - GitGutter / Signify
+  - NERDTree
+  - CtrlP / FZF / Telescope
+  - EasyMotion / Hop
+  - vim-startify
+  - WhichKey
+  - nvim-notify
+  - indent-blankline / indent-guides
+
+==============================================================================
+5. AIRLINE THEME                             *vim-deus-airline*
+
+To use the airline theme:
+>
+  let g:airline_theme = 'deus'
+<
+
+==============================================================================
+6. LIGHTLINE THEME                          *vim-deus-lightline*
+
+To use the lightline theme:
+>
+  let g:lightline = { 'colorscheme': 'deus' }
+<
+
+==============================================================================
+ vim: tw=78 ts=8 sw=2 sts=2 et ft=help
